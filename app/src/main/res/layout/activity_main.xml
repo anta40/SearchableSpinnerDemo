@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/sp_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_hint="Country"
+        app:smsp_isSearchable="true"
+        app:smsp_searchHeaderText="Country"
+        app:smsp_enableDismissSearch="true"
+        app:smsp_hintColor="#388E3C"
+        app:smsp_itemColor="#512DA8"
+        app:smsp_itemListColor="#7C4DFF"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FFFFFF"
+        app:smsp_multilineError="false"
+        app:smsp_selectedItemListColor="#FF5252"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/sp_president"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_hint="President"
+        app:smsp_isSearchable="true"
+        app:smsp_searchHeaderText="President"
+        app:smsp_enableDismissSearch="true"
+        app:smsp_hintColor="#388E3C"
+        app:smsp_itemColor="#512DA8"
+        app:smsp_itemListColor="#7C4DFF"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FFFFFF"
+        app:smsp_multilineError="false"
+        app:smsp_selectedItemListColor="#FF5252"
+        app:layout_constraintTop_toBottomOf="@id/sp_country"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
